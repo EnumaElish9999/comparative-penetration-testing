@@ -47,10 +47,7 @@ Both machines were configured on the custom NAT Network so that they could commu
 
 ## Evidence
 
-Add the lab screenshots to:
-
-- `../screenshots/`
-- `../screenshots/nmap/`
-- `../screenshots/burp-suite/`
-- `../screenshots/sqlmap/`
-- `../screenshots/metasploit/`
+![Nmap](nmap.png)
+![Burpsuite](burpsuite.png)
+![SQLmap](sqlmap.png)
+![Metasploit](metasploit.png)
