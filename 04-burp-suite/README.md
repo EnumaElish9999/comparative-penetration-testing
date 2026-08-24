@@ -10,11 +10,15 @@ Burp Suite was used to assess the security of web applications running on Metasp
 
 Burp Suite was configured to capture HTTP traffic between the client and the target.
 
+![Proxy](proxy.png)
+
 The HTTP history provided information about requests, responses, status codes and server information.
 
 ### Login Request Analysis
 
 A login request was captured through the proxy. The request demonstrated how submitted credentials could be observed within an intercepted request in the deliberately vulnerable lab.
+
+![Login-Request](loginrequest.png)
 
 ### Intruder
 
