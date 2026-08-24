@@ -54,8 +54,3 @@ The scans identified multiple open services and vulnerabilities on Metasploitabl
 - OS detection
 - Vulnerability identification
 
-## Screenshots
-
-Place the corresponding evidence in:
-
-`../screenshots/nmap/`
