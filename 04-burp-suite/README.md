@@ -16,19 +16,25 @@ The HTTP history provided information about requests, responses, status codes an
 
 ### Login Request Analysis
 
-A login request was captured through the proxy. The request demonstrated how submitted credentials could be observed within an intercepted request in the deliberately vulnerable lab.
-
 ![Login-Request](loginrequest.png)
 
+A login request was captured through the proxy. The request demonstrated how submitted credentials could be observed within an intercepted request in the deliberately vulnerable lab.
+
 ### Intruder
+
+![Intruder](intruder.png)
 
 The Intruder tool was used to demonstrate a controlled password-testing activity against the vulnerable login functionality.
 
 ### Repeater
 
+![Repeater](repeater.png)
+
 Repeater was used to modify and resend HTTP requests to examine how the web application responded to different input.
 
 ### Intercept
+
+![Intercept](intercept.png)
 
 The Proxy Intercept function was used to pause requests before they reached the server, allowing the request data to be inspected and modified.
 
@@ -42,9 +48,3 @@ The implementation demonstrated the usefulness of Burp Suite for:
 - Controlled authentication testing
 
 The project used the Community Edition, which has limitations compared with Burp Suite Professional.
-
-## Screenshots
-
-Place evidence in:
-
-`../screenshots/burp-suite/`
