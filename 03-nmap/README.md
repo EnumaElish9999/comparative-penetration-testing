@@ -11,8 +11,7 @@ Nmap was evaluated as the network reconnaissance and scanning component of the p
 ```bash
 sudo nmap -sS -sV -O 10.0.2.4
 ```
-
-
+![TCP-SYN](tcpsyn.png)
 
 The test was used to identify open ports, running services, service versions and the operating system.
 
@@ -21,6 +20,7 @@ The test was used to identify open ports, running services, service versions and
 ```bash
 sudo nmap -sU -F -v 10.0.2.4
 ```
+![UDP](udpscan.png)
 
 This scan was used to identify services operating on UDP ports.
 
@@ -29,6 +29,7 @@ This scan was used to identify services operating on UDP ports.
 ```bash
 sudo nmap 10.0.2.4 -D RND:20
 ```
+![Decoy-scan](decoyscan.png)
 
 A decoy scan was used to send traffic from multiple apparent source addresses.
 
@@ -37,6 +38,7 @@ A decoy scan was used to send traffic from multiple apparent source addresses.
 ```bash
 nmap 10.0.2.4 --script vuln
 ```
+![Vulnerbility-Scan](vulner.png)
 
 Nmap vulnerability-detection scripts were used to identify potential vulnerabilities on the target.
 
