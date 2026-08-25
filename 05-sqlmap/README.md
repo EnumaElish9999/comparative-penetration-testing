@@ -22,8 +22,11 @@ Example structure from the project:
 ```bash
 sqlmap -u <TARGET_URL> --cookie=<COOKIE> --tables
 ```
+![Database Enumeration](emu.png)
 
 ## Findings
+
+![SQL Injecion](sqlinject.png)
 
 The testing identified several SQL injection techniques, including:
 
@@ -37,11 +40,3 @@ The implementation also demonstrated extraction of database information and pass
 ## Results
 
 SQLmap successfully extracted information from the vulnerable database, including user-related records and password hashes. Dictionary-based cracking was also demonstrated against the extracted hashes.
-
-## Screenshots
-
-Place evidence in:
-
-`../screenshots/sqlmap/`
-
-> All testing was performed against the deliberately vulnerable Metasploitable 2 environment.
