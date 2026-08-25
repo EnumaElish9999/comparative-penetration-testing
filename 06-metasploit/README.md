@@ -34,20 +34,18 @@ The project used the vulnerable **vsftpd** service running on Metasploitable 2.
 
 ## Module Discovery
 
+![vsftpd search](vsftpd.png)
+
 The Metasploit search functionality was used to locate an appropriate module for the identified service.
 
 ## Exploitation
 
 The project configured the target using `RHOSTS`, selected a payload and executed the exploit against the deliberately vulnerable service.
 
+![Exploit Meta](exploit.png)
+
 The resulting session allowed command execution on the target. The `whoami` command was used to verify the resulting privileges.
 
 ## Findings
 
-The implementation demonstrated how reconnaissance results can lead into exploitation within a controlled penetration-testing workflow.
-
-## Screenshots
-
-Place evidence in:
-
-`../screenshots/metasploit/`
+The implementation demonstrated how reconnaissance results can lead to exploitation within a controlled penetration-testing workflow.
